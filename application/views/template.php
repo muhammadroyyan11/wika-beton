@@ -101,7 +101,7 @@
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item mr-auto"><a class="navbar-brand" href="<?= base_url() ?>assets/html/ltr/vertical-menu-template-semi-dark/index.html">
                         <div class="feather icon-copyrigth"></div>
-                        <h2 class="brand-text mb-0"><i class="feather icon-coffee"></i>SISFO DESA</h2>
+                        <h2 class="brand-text mb-0"><i class="feather icon-coffee"></i>PANEL WIKA</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary" data-ticon="icon-disc"></i></a></li>
             </ul>
@@ -113,18 +113,21 @@
                 <li <?= $this->uri->segment(1) == 'dashboard' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('dashboard') ?>"><i class="feather icon-home"></i><span class="menu-title" data-i18n="Dashboard">Dashboard</span></a>
                 </li>
 
-                <li class=" navigation-header"><span>Master Data</span>
+                <li class=" navigation-header"><span>Management Website</span>
                 </li>
-                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Lingkungan</span></a>
-                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Kepala Lingkungan</span></a>
-                <li <?= $this->uri->segment(1) == 'meninggal' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('meninggal') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Warga Meninggal </span></a>
-              
-                <?php if (is_admin()) { ?>
-                    <li class=" navigation-header"><span>User Management</span>
-                    </li>
-                    <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-users"></i><span class="menu-title" data-i18n="User Management">User Management</span></a>
-                    </li>
-                <?php } ?>
+                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Tentang kami</span></a>
+                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Produk dan jasa</span></a>
+                <li <?= $this->uri->segment(1) == 'meninggal' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('meninggal') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Kontak person</span></a>
+
+                <li class=" navigation-header"><span>RFQ Transaction</span>
+                </li>
+                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">RFQ Request</span></a>
+                    <?php if (is_admin()) { ?>
+                <li class=" navigation-header"><span>User Management</span>
+                </li>
+                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-users"></i><span class="menu-title" data-i18n="User Management">User Management</span></a>
+                </li>
+            <?php } ?>
 
             </ul>
         </div>
