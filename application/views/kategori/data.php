@@ -18,7 +18,6 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Status</th>
                                         <th>Nama Kategori</th>
                                         <th>Aksi</th>
                                     </tr>
@@ -29,13 +28,10 @@
 
                                         <tr>
                                             <td><?= $no++; ?></td>
-                                            <td>
-                                                <a href="<?= base_url('kategori/toggle/') . $data['id_kategori'] ?>" class="btn btn-circle btn-sm <?= $data['isActive'] ? 'btn-secondary' : 'btn-success' ?>" title="<?= $data['isActive'] ? 'Nonaktifkan Kategori' : 'Aktifkan Kategori' ?>"><i class="fa fa-fw fa-power-off"></i></a>
-                                            </td>
-                                            <td><?= $data['nama_kategori'] ?></td>
+                                            <td><?= $data['name'] ?></td>
                                             <th>
-                                                <button class="btn btn-circle btn-warning btn-sm" data-toggle="modal" data-target="#edit<?= $data['id_kategori']?>"><i class="fa fa-edit"></i></button>
-                                                <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('kategori/delete/') . $data['id_kategori'] ?>" class="btn btn-circle btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+                                                <button class="btn btn-circle btn-warning btn-sm" data-toggle="modal" data-target="#edit<?= $data['id'] ?>"><i class="fa fa-edit"></i></button>
+                                                <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('kategori/delete/') . $data['id'] ?>" class="btn btn-circle btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                                             </th>
                                         </tr>
                                     <?php } ?>
@@ -90,7 +86,7 @@
 <?php
 foreach ($kategori as $key => $data) { ?>
     <!-- Modal -->
-    <div class="modal fade text-left" id="edit<?= $data['id_kategori'] ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal fade text-left" id="edit<?= $data['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-primary white">
@@ -100,7 +96,7 @@ foreach ($kategori as $key => $data) { ?>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form class="form form-horizontal" action="<?php echo base_url('kategori/edit/').$data['id_kategori'] ?>" method="post">
+                    <form class="form form-horizontal" action="<?php echo base_url('kategori/edit/') . $data['id'] ?>" method="post">
                         <div class="form-body">
                             <div class="row">
                                 <div class="col-12">
@@ -109,7 +105,7 @@ foreach ($kategori as $key => $data) { ?>
                                             <span>Nama Kategori</span>
                                         </div>
                                         <div class="col-md-8">
-                                            <input type="text" id="nama" class="form-control" name="nama" value="<?= $data['nama_kategori'] ?>" placeholder="Masukkan Nama Kategori">
+                                            <input type="text" id="nama" class="form-control" name="nama" value="<?= $data['name'] ?>" placeholder="Masukkan Nama Kategori">
                                         </div>
                                     </div>
                                 </div>

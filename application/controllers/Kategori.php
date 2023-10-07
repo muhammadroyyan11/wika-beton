@@ -14,9 +14,8 @@ class Kategori extends CI_Controller
 
     public function index()
     {
-        $data['title'] = "Kategori";
         $data = [
-          'title'       => 'Kategori',
+          'title'       => 'Kategori Produk',
           'kategori'    => $this->db->get('kategori')->result_array()  
         ];
         $this->template->load('template', 'kategori/data', $data);
@@ -27,8 +26,7 @@ class Kategori extends CI_Controller
         $post = $this->input->post(null, true);
 
         $params = [
-            'nama_kategori'     => $post['nama'],
-            'isActive'          => 1
+            'name'     => $post['nama'],
         ];
 
         $this->base->add('kategori', $params);
@@ -47,10 +45,10 @@ class Kategori extends CI_Controller
         $post = $this->input->post(null, true);
 
         $params = [
-            'nama_kategori'     => $post['nama']
+            'name'     => $post['nama']
         ];
 
-        $this->base->edit('kategori', $params, ['id_kategori' => $id]);
+        $this->base->edit('kategori', $params, ['id' => $id]);
 
         if ($this->db->affected_rows() > 0) {
             set_pesan('Data berhasil disimpan');
@@ -63,7 +61,7 @@ class Kategori extends CI_Controller
     
     public function delete($id)
     {
-        $this->base->del('kategori', ['id_kategori' => $id]);
+        $this->base->del('kategori', ['id' => $id]);
 
         if ($this->db->affected_rows() > 0) {
             set_pesan('Data berhasil dihapus');
@@ -74,19 +72,4 @@ class Kategori extends CI_Controller
         redirect('kategori');
         
     }
-
-    public function toggle($getId)
-    {
-        $status = $this->base_model->getUser('kategori', ['id_kategori' => $getId])['isActive'];
-
-        // var_dump($status);
-        $toggle = $status ? 0 : 1;
-        $pesan = $toggle ? 'user diaktifkan.' : 'user dinonaktifkan.';
-
-        if ($this->base_model->update('kategori', 'id_kategori', $getId, ['isActive' => $toggle])) {
-            set_pesan($pesan);
-        }
-        redirect('kategori');
-    }
-  
 }

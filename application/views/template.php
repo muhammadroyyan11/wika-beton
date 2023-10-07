@@ -115,7 +115,8 @@
 
                 <li class=" navigation-header"><span>Management Website</span>
                 </li>
-                <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Tentang kami</span></a>
+                <li <?= $this->uri->segment(1) == 'tentang' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('tentang') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Tentang kami</span></a>
+                <li <?= $this->uri->segment(1) == 'kategori' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('kategori') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Kategori Produk</span></a>
                 <li <?= $this->uri->segment(1) == 'user' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('user') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Produk dan jasa</span></a>
                 <li <?= $this->uri->segment(1) == 'meninggal' || $this->uri->segment(1) == '' ? 'class="active nav-item"' : '' ?>><a href="<?= site_url('meninggal') ?>"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="User Management">Kontak person</span></a>
 
@@ -303,6 +304,10 @@
     <!-- CKEDITOR -->
     <script>
         var ckeditor = CKEDITOR.replace('ckeditor', {
+            height: '600px'
+        });
+
+        var ckeditor = CKEDITOR.replace('ckeditor2', {
             height: '600px'
         });
 
