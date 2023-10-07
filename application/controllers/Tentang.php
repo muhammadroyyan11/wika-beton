@@ -18,6 +18,7 @@ class Tentang extends CI_Controller
             'title' => 'Tentang Kami',
             'tentang'    => $this->db->get('about_us')->result_array()
         ];
+        // var_dump($data);
         $this->template->load('template', 'tentang/data', $data);
     }
 

@@ -171,7 +171,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100" style="background-color: blue;">
             <img src="assets/img/wika/image (11).jpg" class="img-fluid" alt="" />
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
@@ -651,31 +651,31 @@
             <div class="row">
               <div class="col form-group">
                 <label for="exampleFormControlInput1" class="form-label">Nama Perusahaan</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nama Perusahaan" required />
               </div>
               <div class="col form-group">
                 <label for="exampleFormControlInput1" class="form-label">Untuk Perhatian (u.p.)</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Untuk Perhatian (u.p.)" required />
               </div>
             </div>
             <div class="row">
               <div class="col form-group">
                 <label for="exampleFormControlInput1" class="form-label">Nomer Handphone</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nomer Handphone" required />
               </div>
               <div class="col form-group">
                 <label for="exampleFormControlInput1" class="form-label">Email Pelanggan</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email Pelanggan" required />
               </div>
             </div>
             <div class="row">
               <div class="col form-group">
                 <label for="exampleFormControlInput1" class="form-label">Nama Proyek</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nama Proyek" required />
               </div>
               <div class="col form-group">
                 <label for="exampleFormControlInput1" class="form-label">Nama Perusahan Project Owner</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Nama Perusahan Project Owner" required />
               </div>
             </div>
             <div class="form-group">
@@ -688,15 +688,13 @@
             </div>
             <div class="row">
               <div class="col form-group">
-                <label for="datetime" class="form-label">Jangka Waktu Pelaksanaan Proyek Dimulai</label>
-                <input type="datetime-local" class="form-control" name="email" id="email" placeholder="Your Email"
-                  required />
+                <label for="startTime" class="form-label">Jangka Waktu Pelaksanaan Proyek Dimulai</label>
+                <input type="date" class="form-control" name="startTime" id="startTime" required />
               </div>
               <div class="col form-group">
-                <label for="exampleFormControlInput1" class="form-label">Jangka Waktu Pelaksanaan Proyek
+                <label for="endTime" class="form-label">Jangka Waktu Pelaksanaan Proyek
                   Berakhir</label>
-                <input type="datetime-local" class="form-control" name="email" id="email" placeholder="Your Email"
-                  required />
+                <input type="date" class="form-control" name="endTime" id="endTime" required />
               </div>
             </div>
 
@@ -755,22 +753,24 @@
 
             <div class="row">
               <div class="col form-group">
-                <label for="datetime" class="form-label">Koordinat Lokasi Proyek</label><br>
-                <label for="datetime" class="form-label">(Share Location)</label>
+                <label for="datetime" class="form-label">Koordinat Lokasi Proyek (Share Location)</label>
                 <input type="text" class="form-control" name="text" id="text" placeholder="Koordinat Lokasi Proyek"
                   required />
               </div>
               <div class="col form-group">
-                <label for="exampleFormControlInput1" class="form-label">Kebutuhan Produk</label><br>
-                <label for="exampleFormControlInput1" class="form-label">(Spesifikasi/Mutu, FA/NFA, Slump dan
-                  Vol)</label>
-                <input type="text" class="form-control" name="text" id="text" placeholder="Kebutuhan Produk" required />
-              </div>
-              <div class="col form-group">
-                <label for="exampleFormControlInput1" class="form-label">Jarak</label><br>
-                <label for="exampleFormControlInput1" class="form-label">Batching Plant Menuju Site </label>
+                <label for="exampleFormControlInput1" class="form-label">Jarak Batching Plant Menuju Site</label>
                 <input type="text" class="form-control" name="text" id="text"
                   placeholder="Jarak Batching Plant Menuju Site" required />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col form-group">
+                <label for="exampleFormControlInput1" class="form-label">Kebutuhan Produk (Spesifikasi/Mutu, FA/NFA, Slump dan
+                  Vol)</label><br>
+                <!-- <input type="" class="form-control input-group-text" name="text" id="text" placeholder="Kebutuhan Produk" required /> -->
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="" rows="3"></textarea>
+
               </div>
             </div>
 

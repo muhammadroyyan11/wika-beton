@@ -14,7 +14,9 @@
     <link href="<?= base_url() ?>assets/front/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
     <link href="<?= base_url() ?>assets/front/vendor/aos/aos.css" rel="stylesheet" />
@@ -33,7 +35,8 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <h1 class="logo">
-                <a href="index.html" class="logo"><img src="<?= base_url() ?>assets/front/img/wika/LOGO MC 2 FIX.png" alt="" /></a>
+                <a href="index.html" class="logo"><img src="<?= base_url() ?>assets/front/img/wika/LOGO MC 2 FIX.png"
+                        alt="" /></a>
                 <a href="index.html">MC2 <span>WIKA</span></a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
@@ -41,37 +44,47 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto active" href="#hero">Beranda</a>
+                        <a <?= $this->uri->segment(1) == 'home' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="home">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a <?= $this->uri->segment(1) == 'tentang' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="#featured-services" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Perusahaan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tentang Perusahaan</a></li>
+                            <li><a class="dropdown-item" href="#">Struktur Perusahaan</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="#featured-services">Perusahaan</a>
+                        <a <?= $this->uri->segment(1) == 'product' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="<?= site_url('product') ?>">Produk &
+                            Jasa</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="#services">Produk & Jasa</a>
+                        <a <?= $this->uri->segment(1) == 'portfolio' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="<?= site_url('portfolio') ?>">Portfolio</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="nav-link scrollto" href="#contact">Hubungi Kami</a>
+                        <a <?= $this->uri->segment(1) == 'contact' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="<?= site_url('contact') ?>">Hubungi
+                            Kami</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->
-            <a href="<?= site_url('auth')?>" class="btn btn-primary w-200">
+            <a href="<?= site_url('auth') ?>" class="btn btn-primary w-200">
                 Login
             </a>
         </div>
     </header>
     <!-- End Header -->
-
     <?= $contents ?>
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="container footer-maps">
-            <iframe class="mb-4 mb-lg-0 rounded-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1634035798356!2d106.87440221744386!3d-6.242184299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3232a5eb1b5%3A0x3e5f3684ce6774b5!2sPT%20Wijaya%20Karya%20(Persero)%20Tbk!5e0!3m2!1sen!2sid!4v1696154654814!5m2!1sen!2sid" frameborder="0" style="border: 0; width: 100%; height: 384px" allowfullscreen></iframe>
+        <div class="container footer-maps" style="width: 80%;">
+            <iframe class="mb-4 mb-lg-0 rounded-5"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1634035798356!2d106.87440221744386!3d-6.242184299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3232a5eb1b5%3A0x3e5f3684ce6774b5!2sPT%20Wijaya%20Karya%20(Persero)%20Tbk!5e0!3m2!1sen!2sid!4v1696154654814!5m2!1sen!2sid"
+                frameborder="0" style="border: 0; width: 100%; height: 384px" allowfullscreen></iframe>
         </div>
 
         <div class="footer-top">
@@ -171,7 +184,8 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="<?= base_url() ?>assets/front/vendor/purecounter/purecounter_vanilla.js"></script>
