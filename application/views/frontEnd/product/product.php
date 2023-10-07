@@ -12,53 +12,81 @@
         </div>
 
         <div class="container">
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
+                    <div class="icon-box" style="width: 100%;">
                         <div class="icon"><i class="bx bxl-dribbble"></i></div>
                         <h4><a href="">Readymix</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-6 ">
-                    <div class="icon-box">
-                        <p>
-                            Voluptatum deleniti atque corrupti quos dolores et
-                            quas molestias excepturi
+                <div class="col-lg-8">
+                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
+                        <p class="align-items-start" style="font-size: 16px;">
+                            Readymix adalah istilah yang digunakan dalam industri konstruksi untuk merujuk pada beton
+                            siap pakai atau beton siap pakai yang diproduksi di pabrik pencampuran beton dan dikirim ke
+                            lokasi proyek konstruksi dalam keadaan siap untuk digunakan. Beton readymix disiapkan dengan
+                            mencampurkan bahan-bahan seperti semen, pasir, kerikil, dan air dalam proporsi yang tepat di
+                            pabrik pencampuran beton.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon-box">
-                    <div class="icon"><i class="bx bx-file"></i></div>
-                    <h4><a href="">Quarry</a></h4>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore
-                    </p>
+            <div class="row mt-3">
+                <div class="col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box" style="width: 100%;">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4><a href="">Quarry</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
+                        <p class="align-items-start" style="font-size: 16px;">
+                            Quarry adalah sebuah tempat di mana batu, pasir, kerikil, atau bahan tambang lainnya
+                            ditambang dari tanah. Biasanya, quarry adalah lubang terbuka yang digali di tanah untuk
+                            mengekstraksi bahan-bahan ini. Bahan tambang yang diekstraksi dari quarry digunakan dalam
+                            konstruksi, seperti pembangunan jalan, bangunan, dinding penahan, dan proyek-proyek
+                            infrastruktur lainnya.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                <div class="icon-box">
-                    <div class="icon"><i class="bx bx-tachometer"></i></div>
-                    <h4><a href="">Produk Beton Lain-lain</a></h4>
-                    <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt
-                        in culpa qui officia
-                    </p>
+            <div class="row mt-3">
+                <div class="col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box" style="width: 100%;">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4><a href="">Produk Beton Lain-lain</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
+                        <p class="align-items-start" style="font-size: 16px;">
+                            Produk beton mencakup berbagai produk yang dibuat dengan menggunakan campuran beton. Beton
+                            adalah bahan konstruksi yang terbuat dari campuran semen, air, pasir, kerikil, dan bahan
+                            tambahan lainnya seperti aditif atau serat untuk meningkatkan kekuatan dan ketahanannya.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                    <div class="icon"><i class="bx bx-world"></i></div>
-                    <h4><a href="">Jasa</a></h4>
-                    <p>
-                        At vero eos et accusamus et iusto odio dignissimos
-                        ducimus qui blanditiis
-                    </p>
+            <div class="row mt-3">
+                <div class="col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box" style="width: 100%;">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4><a href="">Jasa</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
+                        <p class="align-items-start" style="font-size: 16px;">
+                            Readymix adalah istilah yang digunakan dalam industri konstruksi untuk merujuk pada beton
+                            siap pakai atau beton siap pakai yang diproduksi di pabrik pencampuran beton dan dikirim ke
+                            lokasi proyek konstruksi dalam keadaan siap untuk digunakan. Beton readymix disiapkan dengan
+                            mencampurkan bahan-bahan seperti semen, pasir, kerikil, dan air dalam proporsi yang tepat di
+                            pabrik pencampuran beton.
+                        </p>
+                    </div>
                 </div>
             </div>
 
