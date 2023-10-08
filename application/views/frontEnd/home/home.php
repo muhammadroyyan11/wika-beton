@@ -72,19 +72,11 @@
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h2>Tentang Perusahaan</h2>
-                <h3>MC2 <span>WIKA</span></h3>
+                <h3>
+                    <?= $company[0]['name_company'] ?> <span>WIKA</span>
+                </h3>
                 <p style="width: auto; text-justify: auto;">
-                    PT Wijaya Karya Beton Tbk. (WIKA Beton) didirikan sebagai salah satu anak perusahaan BUMN PT
-                    Wijaya Karya
-                    (Persero) Tbk. pada tahun 1997 dengan visi Menjadi Perusahaan Terkemuka Dalam Bidang
-                    Engineering,
-                    Production, Installation (EPI) Industri Beton di Asia Tenggara. Saat ini WIKA Beton merupakan
-                    produsen beton
-                    pracetak terbesar di seluruh Indonesia bahkan Asia Tenggara. WIKA Beton telah memiliki 14 (empat
-                    belas)
-                    pabrik, 1 (satu) mobile plant, dan 7 (tujuh) wilayah penjualan yang tersebar di seluruh wilayah
-                    Indonesia
-                    yang memiliki pertumbuhan industri konstruksi yang tinggi.
+                    <?= $company[0]['desc'] ?>
                 </p>
             </div>
 
@@ -98,8 +90,9 @@
                         Visi Misi
                     </h3>
                     <p class="fst-italic">
-                        "Menjadi Perusahaan Terkemuka dalam Bidang Engineering, Production, Installation (EPI)
-                        Industri Beton di Asia Tenggara".
+                        "
+                        <?= $company[0]['visi'] ?>
+                        ".
                     </p>
                     <ul>
                         <li style="display: flex; align-items: start;">

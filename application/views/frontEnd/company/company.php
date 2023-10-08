@@ -42,14 +42,15 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-head">
-                <img src="<?= base_url() ?>assets/front/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-head"> 
+                <img src="<?= base_url() ?>assets/front/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" /> //image
                 <div class="portfolio-info">
-                    <h4>Kepala Divisi</h4>
-                    <p>Bambang Suseno</p>
-                    <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-1.jpg"
-                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Kepala Divisi" style="right: 10px;"><i
-                            class="bx bx-plus"></i></a>
+                    <h4>Kepala Divisi</h4> //role
+                    <p>Bambang Suseno</p> // name
+                    <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-1.jpg" //image
+                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Kepala Divisi"
+                        style="right: 10px;"><i class="bx bx-plus"></i></a>
                 </div>
             </div>
 
@@ -59,8 +60,8 @@
                     <h4>Supervisi</h4>
                     <p>Anang gaga</p>
                     <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-1.jpg"
-                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Supervisi" style="right: 10px;"><i
-                            class="bx bx-plus"></i></a>
+                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Supervisi"
+                        style="right: 10px;"><i class="bx bx-plus"></i></a>
                 </div>
             </div>
 
@@ -70,8 +71,8 @@
                     <h4>Supervisi</h4>
                     <p>Anang gigi</p>
                     <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-1.jpg"
-                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Supervisi" style="right: 10px;"><i
-                            class="bx bx-plus"></i></a>
+                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Supervisi"
+                        style="right: 10px;"><i class="bx bx-plus"></i></a>
                 </div>
             </div>
 
@@ -81,8 +82,8 @@
                     <h4>Perkerja</h4>
                     <p>Ilham 1</p>
                     <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-3.jpg"
-                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Perkerja" style="right: 10px;"><i
-                            class="bx bx-plus"></i></a>
+                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Perkerja"
+                        style="right: 10px;"><i class="bx bx-plus"></i></a>
                 </div>
             </div>
 
@@ -92,8 +93,8 @@
                     <h4>Perkerja</h4>
                     <p>Ilham 2</p>
                     <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-3.jpg"
-                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Perkerja" style="right: 10px;"><i
-                            class="bx bx-plus"></i></a>
+                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Perkerja"
+                        style="right: 10px;"><i class="bx bx-plus"></i></a>
                 </div>
             </div>
 
@@ -103,8 +104,8 @@
                     <h4>Perkerja</h4>
                     <p>Ilham 3</p>
                     <a href="<?= base_url() ?>assets/front/img/portfolio/portfolio-3.jpg"
-                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Perkerja" style="right: 10px;"><i
-                            class="bx bx-plus"></i></a>
+                        data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Perkerja"
+                        style="right: 10px;"><i class="bx bx-plus"></i></a>
                 </div>
             </div>
 

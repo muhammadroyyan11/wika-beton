@@ -15,8 +15,10 @@ class Home extends CI_Controller
     {
         $data = [
           'title'       => 'Home Page',
-          'kategori'    => $this->db->get('kategori')->result_array()  
+          'kategori'    => $this->db->get('kategori')->result_array(),
+          'company'    => $this->db->get('company')->result_array()
         ];
+        // var_dump($data);
         $this->template->load('frontend/template', 'frontend/home/home', $data);
     }
 }

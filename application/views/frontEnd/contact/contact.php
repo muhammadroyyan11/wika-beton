@@ -147,7 +147,8 @@
                         <label for="exampleFormControlInput1" class="form-label">Kebutuhan Produk</label><br>
                         <label for="exampleFormControlInput1" class="form-label">(Spesifikasi/Mutu, FA/NFA, Slump dan
                             Vol)</label>
-                        <input type="text" class="form-control" name="text" id="text" placeholder="Kebutuhan Produk" required />
+                        <!-- <input type="text" class="form-control" name="text" id="text" placeholder="Kebutuhan Produk" required /> -->
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div class="col form-group">
                         <label for="exampleFormControlInput1" class="form-label">Jarak</label><br>

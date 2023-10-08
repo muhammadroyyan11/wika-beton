@@ -58,6 +58,7 @@ $route['home'] = 'frontend/home';
 $route['product'] = 'frontend/product';
 $route['contact'] = 'frontend/contact';
 $route['portfolio'] = 'frontend/portfolio';
+$route['portfolio/detail_portfolio'] = 'frontend/portfolio_detail';
 $route['company'] = 'frontend/company';
 
 
