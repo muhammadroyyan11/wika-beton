@@ -10,8 +10,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="<?= base_url() ?>assets/front/img/favicon.png" rel="icon" />
-    <link href="<?= base_url() ?>assets/front/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="<?= base_url() ?>assets/front/img/wika/LOGO_MC_2_FIX.png" rel="icon" />
+    <link href="<?= base_url() ?>assets/front/img/wika/LOGO_MC_2_FIX.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -35,7 +35,7 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <h1 class="logo">
-                <a href="index.html" class="logo"><img src="<?= base_url() ?>assets/front/img/wika/LOGO MC 2 FIX.png"
+                <a href="index.html" class="logo"><img src="<?= base_url() ?>assets/front/img/wika/LOGO_MC_2_FIX.png"
                         alt="" /></a>
                 <a href="index.html">MC2 <span>WIKA</span></a>
             </h1>
@@ -47,13 +47,13 @@
                         <a <?= $this->uri->segment(1) == 'home' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="home">Beranda</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a <?= $this->uri->segment(1) == 'tentang' || $this->uri->segment(1) == '' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> href="#featured-services" role="button"
+                        <a <?= $this->uri->segment(1) == 'company' || $this->uri->segment(1) == 'home#about' ? 'class="nav-link scrollto active"' : 'nav-link scrollto' ?> role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Perusahaan
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Tentang Perusahaan</a></li>
-                            <li><a class="dropdown-item" href="#">Struktur Perusahaan</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('home#about') ?>">Tentang Perusahaan</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('company') ?>">Struktur Perusahaan</a></li>
                         </ul>
                     </li>
                     <li>

@@ -794,7 +794,8 @@ section {
   font-weight: 600;
   font-size: 26px;
 }
-.about .img-perusahaan{
+
+.about .img-perusahaan {
   max-width: 100%;
   height: 510px;
 }
@@ -831,6 +832,69 @@ section {
 }
 
 .about .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Company
+--------------------------------------------------------------*/
+
+.company .structureOrganisation {
+  text-align: center;
+}
+
+.company .structureOrganisation p {
+  margin-top: 30px;
+  font-weight: bold;
+  background-color: #106eea;
+  padding: 20px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.company .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.company .img-perusahaan {
+  max-width: 100%;
+  height: 510px;
+}
+
+.company .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.company .content ul li:first-child {
+  /* margin-top: 35px; */
+}
+
+.company .content ul i {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #106eea;
+  border-radius: 50px;
+}
+
+.company .content ul h5 {
+  font-size: 18px;
+  color: #555555;
+}
+
+.company .content ul p {
+  font-size: 15px;
+}
+
+.company .content p:last-child {
   margin-bottom: 0;
 }
 
@@ -951,7 +1015,15 @@ section {
   border: 1px solid #e2eefd;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+}
+
+.services .bg-service {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  height: 299px;
+  text-align: start;
 }
 
 .services .icon-box .icon {

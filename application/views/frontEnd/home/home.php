@@ -9,13 +9,8 @@
                 </h2>
                 <div class="d-flex">
                     <a href="#about" class="btn-get-started scrollto">Profile</a>
-                    <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
-                class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
                 </div>
             </div>
-            <!-- <div class="col" style="background-color: red;">
-          <img class="side-image" src="<?= base_url() ?>assets/front/img/wika/image (1).JPG"></img>
-        </div> -->
         </div>
     </div>
 </section>
@@ -30,7 +25,7 @@
                     style="width: 250px; text-align: center;">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bi bi-building"></i></div>
-                        <h4 class="title"><a href="">Readymix</a></h4>
+                        <h4 class="title"><a>Readymix</a></h4>
                         <p class="description">
                         </p>
                     </div>
@@ -41,7 +36,7 @@
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bx bx-file"></i></div>
                         <h4 class="title">
-                            <a href="">Quarry</a>
+                            <a>Quarry</a>
                         </h4>
                         <p class="description">
                         </p>
@@ -52,7 +47,7 @@
                     style="width: 250px; text-align: center;">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-tachometer"></i></div>
-                        <h4 class="title"><a href="">Produk Beton Lain-lain</a></h4>
+                        <h4 class="title"><a>Produk Beton Lain-lain</a></h4>
                         <p class="description">
                         </p>
                     </div>
@@ -62,7 +57,7 @@
                     style="width: 250px; text-align: center;">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bi bi-briefcase"></i></div>
-                        <h4 class="title"><a href="">Jasa</a></h4>
+                        <h4 class="title"><a>Jasa</a></h4>
                         <p class="description">
                         </p>
                     </div>

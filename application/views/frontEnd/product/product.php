@@ -12,21 +12,20 @@
         </div>
 
         <div class="container">
-            <div class="row mt-3">
+            <div class="row mt-3 data-aos="fade-up"">
                 <div class="col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box" style="width: 100%;">
                         <div class="icon"><i class="bx bxl-dribbble"></i></div>
                         <h4><a href="">Readymix</a></h4>
                     </div>
                 </div>
+
                 <div class="col-lg-8">
-                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
+                    <div class="icon-box bg-service" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('<?= base_url() ?>assets/front/img/wika/image (1).JPG');">
                         <p class="align-items-start" style="font-size: 16px;">
                             Readymix adalah istilah yang digunakan dalam industri konstruksi untuk merujuk pada beton
                             siap pakai atau beton siap pakai yang diproduksi di pabrik pencampuran beton dan dikirim ke
-                            lokasi proyek konstruksi dalam keadaan siap untuk digunakan. Beton readymix disiapkan dengan
-                            mencampurkan bahan-bahan seperti semen, pasir, kerikil, dan air dalam proporsi yang tepat di
-                            pabrik pencampuran beton.
+                            lokasi proyek konstruksi dalam keadaan siap untuk digunakan.
                         </p>
                     </div>
                 </div>
@@ -40,13 +39,11 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
+                    <div class="icon-box bg-service" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('<?= base_url() ?>assets/front/img/wika/image (2).JPG');">
                         <p class="align-items-start" style="font-size: 16px;">
                             Quarry adalah sebuah tempat di mana batu, pasir, kerikil, atau bahan tambang lainnya
                             ditambang dari tanah. Biasanya, quarry adalah lubang terbuka yang digali di tanah untuk
-                            mengekstraksi bahan-bahan ini. Bahan tambang yang diekstraksi dari quarry digunakan dalam
-                            konstruksi, seperti pembangunan jalan, bangunan, dinding penahan, dan proyek-proyek
-                            infrastruktur lainnya.
+                            mengekstraksi bahan-bahan ini.
                         </p>
                     </div>
                 </div>
@@ -60,8 +57,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
-                        <p class="align-items-start" style="font-size: 16px;">
+                    <div class="icon-box bg-service" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('<?= base_url() ?>assets/front/img/wika/image (3).JPG');">
                             Produk beton mencakup berbagai produk yang dibuat dengan menggunakan campuran beton. Beton
                             adalah bahan konstruksi yang terbuat dari campuran semen, air, pasir, kerikil, dan bahan
                             tambahan lainnya seperti aditif atau serat untuk meningkatkan kekuatan dan ketahanannya.
@@ -78,13 +74,10 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="icon-box" style="width: 100%; height: 299px; text-align: start;">
-                        <p class="align-items-start" style="font-size: 16px;">
+                    <div class="icon-box bg-service" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('<?= base_url() ?>assets/front/img/wika/image (4).JPG');">
                             Readymix adalah istilah yang digunakan dalam industri konstruksi untuk merujuk pada beton
                             siap pakai atau beton siap pakai yang diproduksi di pabrik pencampuran beton dan dikirim ke
-                            lokasi proyek konstruksi dalam keadaan siap untuk digunakan. Beton readymix disiapkan dengan
-                            mencampurkan bahan-bahan seperti semen, pasir, kerikil, dan air dalam proporsi yang tepat di
-                            pabrik pencampuran beton.
+                            lokasi proyek konstruksi dalam keadaan siap untuk digunakan.
                         </p>
                     </div>
                 </div>
