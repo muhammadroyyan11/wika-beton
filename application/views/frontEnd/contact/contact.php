@@ -162,12 +162,12 @@
                         <label for="exampleFormControlInput1" class="form-label">Suplai Batching Plant dari</label>
                         <select class="form-select" id="batchingPlantSelect" aria-label="Default select example">
                             <option selected>Pilih Batching Plant</option>
-                            <option value="1">Batching Plant Karawang</option>
-                            <option value="2">Batching Plant Walini</option>
-                            <option value="3">Batching Plant Cakung</option>
-                            <option value="4">Batching Plant Cilegon</option>
-                            <option value="5">Batching Plant Ancol</option>
-                            <option value="6">Batching Plant On Site</option>
+                            <option value="Batching Plant Karawang">Batching Plant Karawang</option>
+                            <option value="Batching Plant Walini">Batching Plant Walini</option>
+                            <option value="Batching Plant Cakung">Batching Plant Cakung</option>
+                            <option value="Batching Plant Cilegon">Batching Plant Cilegon</option>
+                            <option value="Batching Plant Ancol">Batching Plant Ancol</option>
+                            <option value="Batching Plant On Site">Batching Plant On Site</option>
                             <option value="other">Other</option>
                         </select>
                         <input type="text" class="form-control mt-2" id="otherBatchingPlantInput" placeholder="Masukkan nama Batching Plant" style="display:none;">
@@ -176,19 +176,18 @@
                         <label for="exampleFormControlInput1" class="form-label">Metode Pembayaran</label>
                         <select class="form-select" id="methodPaymentSelect" aria-label="Default select example">
                             <option selected>Pilih Metode Pembayaran</option>
-                            <option value="1">Cash Before Delivery</option>
-                            <option value="1">30% DP 70% Pelunasan</option>
-                            <option value="1">SCF 120 Hari</option>
-                            <option value="1">SCF 180 Hari</option>
-                            <option value="1">Reguler 14 Hari</option>
-                            <option value="1">Reguler 30 Hari</option>
-                            <option value="1">Reguler 60 Hari</option>
+                            <option value="Cash Before Delivery">Cash Before Delivery</option>
+                            <option value="30% DP 70% Pelunasan">30% DP 70% Pelunasan</option>
+                            <option value="SCF 120 Hari">SCF 120 Hari</option>
+                            <option value="SCF 180 Hari">SCF 180 Hari</option>
+                            <option value="Reguler 14 Hari">Reguler 14 Hari</option>
+                            <option value="Reguler 30 Hari">Reguler 30 Hari</option>
+                            <option value="Reguler 60 Hari">Reguler 60 Hari</option>
                             <option value="other">Other</option>
                         </select>
-                        <input type="text" class="form-control mt-2" id="methodPaymentSelectInput" placeholder="Masukkan metode pembayaran" style="display:none;">
+                        <input type="text" class="form-control mt-2" id="otherMethodPaymentInput" placeholder="Masukkan metode pembayaran" style="display:none;">
                     </div>
                 </div>
-
 
                 <div class="my-3">
                     <div class="loading">Loading</div>
